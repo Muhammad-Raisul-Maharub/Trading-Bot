@@ -1,4 +1,4 @@
-from handlers.api_handler.py import rollbit_api_handler
+from handlers.api_handler import rollbit_api_handler
 from handlers.scraper_handler import rollbit_scraper_handler
 
 def rollbit_handler(config):
