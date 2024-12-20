@@ -20,4 +20,14 @@ This bot is a universal trading bot designed to work with platforms like Rollbit
 1. **Python 3.8 or higher** installed on your system.
 2. Install the required Python dependencies:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/Muhammad-Raisul-Maharub/trading-bot.git
+
+## Install dependencies:
+pip install -r requirements.txt
+
+## Add your .env file with the following:
+ROLLBIT_API_KEY=your_api_key
+ROLLBIT_SECRET_KEY=your_secret_key
+
+## Run the bot:
+python main.py
