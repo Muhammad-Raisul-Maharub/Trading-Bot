@@ -1,0 +1,19 @@
+{
+    "platforms": {
+      "rollbit": {
+        "mode": "scraper", 
+        "api_key": "",  
+        "api_secret": "",
+        "url": "https://rollbit.com/trading/",
+        "pairs": ["BTC/USD", "ETH/USD", "SOL/USD"],
+        "max_concurrent_trades": 3,
+        "trade_cooldown": 600,
+        "rsi_threshold": 30,
+        "take_profit_roi": 5,
+        "stoploss_roi": -2,
+        "stoploss_trailing_margin": 1,
+        "trade_amount": 0.01
+      }
+    }
+  }
+  

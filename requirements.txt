@@ -1,3 +1,7 @@
 requests
 python-dotenv
 logging
+selenium==4.11.2
+requests==2.31.0
+numpy==1.24.4
+pandas==2.1.3

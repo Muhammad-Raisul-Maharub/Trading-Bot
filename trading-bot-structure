@@ -1,0 +1,16 @@
+trading-bot/
+│
+├── config.json             # Configuration file for the bot
+├── bot.py                  # Main entry point for the bot
+├── handlers/
+│   ├── __init__.py         # Makes the folder a Python package
+│   ├── api_handler.py      # Handles API-based operations
+│   ├── scraper_handler.py  # Handles scraper-based operations
+│   └── rollbit_handler.py  # Logic for Rollbit platform
+├── utils/
+│   ├── __init__.py         # Utility package
+│   ├── logger.py           # Handles logging for the bot
+│   └── indicators.py       # Implements RSI and other indicators
+├── requirements.txt        # List of Python dependencies
+├── README.md               # Instructions for the GitHub repository
+└── trading_bot.log         # Log file (generated after running the bot)
